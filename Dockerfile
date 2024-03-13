@@ -10,4 +10,4 @@ FROM registry.access.redhat.com/ubi8/ubi-minimal@sha256:8bedbe742f140108897fb353
 ## Stuff for building
 #RUN zypper in -y automake cmake make 
 
-CMD bash sleep-hello.bash
+CMD bash sleep_hello.bash
