@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 #FROM docker.io/opensuse/leap:15.5
-FROM registry.hpc.lanl.gov/openshift/ubi8-minimal
+FROM registry.access.redhat.com/ubi8/ubi-minimal@sha256:8bedbe742f140108897fb3532068e8316900d9814f399d676ac78b46e740e34e
 
 ## Basic utilites
 #RUN zypper in -y gawk lua-lmod
