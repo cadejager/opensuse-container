@@ -9,3 +9,4 @@ FROM docker.io/opensuse/leap:15.5
 ## Stuff for building
 #RUN zypper in -y automake cmake make 
 
+RUN echo "hello"
