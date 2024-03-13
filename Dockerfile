@@ -1,6 +1,7 @@
 # syntax=docker/dockerfile:1
 
 FROM --platform=linux/amd64 registry.suse.com/bci/bci-base:15.5
+#FROM --platform=linux/amd64 docker.io/opensuse/leap:15.5
 #FROM registry.access.redhat.com/ubi8/ubi-minimal@sha256:8bedbe742f140108897fb3532068e8316900d9814f399d676ac78b46e740e34e
 
 # set user to root
